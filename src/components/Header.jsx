@@ -32,7 +32,7 @@ const Header = (props) => {
             <img src="https://www.freepnglogos.com/uploads/netflix-logo-text-emblem-31.png" alt="" />
         </div>
         <motion.button {...buttonClick}
-        onClick={() => navigate(props.login? "/login" : "/signup")}>{props? "Log In" : "Sign Up" }</motion.button>
+        onClick={() => navigate(props.login? "/signup" : "/login")}>{props? "Log In" : "Sign Up" }</motion.button>
 
     </Container>
   )
